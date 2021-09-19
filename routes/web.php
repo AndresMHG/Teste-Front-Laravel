@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CoinMarketCapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+/* Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard'); */
+
+/* Route::get('/list', [CoinMarketCapController::class, 'index']); */
+
+
+Route::middleware(['auth:sanctum', 'verified'])->prefix('dashboard')->group(function () {
+    Route::get('/', function() {
+        return view('dashboard');
+    })->name('dashboard');
+
+    Route::get('/list', [CoinMarketCapController::class, 'index']);
+
 });
