@@ -26,10 +26,5 @@ Route::get('/', function () {
 
 
 Route::middleware(['auth:sanctum', 'verified'])->prefix('dashboard')->group(function () {
-    Route::get('/', function() {
-        return view('dashboard');
-    })->name('dashboard');
-
-    Route::get('/list', [CoinMarketCapController::class, 'index']);
-
+    Route::get('/', [CoinMarketCapController::class, 'index'])->name('dashboard');;
 });

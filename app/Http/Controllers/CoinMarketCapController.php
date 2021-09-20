@@ -15,6 +15,6 @@ class CoinMarketCapController extends Controller
         if (is_null($list)) {
             abort(400);
         }
-        return view('criptomoneda.list')->with('data', $list);
+        return view('dashboard')->with('data', $list);
     }
 }
