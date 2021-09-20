@@ -27,4 +27,5 @@ Route::get('/', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->prefix('dashboard')->group(function () {
     Route::get('/', [CoinMarketCapController::class, 'index'])->name('dashboard');;
+    /* Route::post('calculator', 'CoinMarketCapController@calculate'); */
 });
