@@ -47,10 +47,11 @@
                 <div class="jumbotron">
                     <h1 class="display-4">Desafio Intergalaxy SA: Teste prático para Frontend Developer</h1>
                     <p class="lead">
-                        Para resolver esse teste, me ajude com ferramentas como bootstrap. Criar uma solução laravel jetstrea, olhar a documentação e me dá um projeto inicial pronto para trabalhar com todas as minhas necessidades iniciais.
-                        Inicialmente, trabalhe os campos do registro de login necessários para o teste, com os campos necessários anexados nas migrações. Faça as modificações necessárias para que funcione com os dados adicionados do frontend e do bakend.
-                        Em seguida olhei a documentação do coinmarketcap, fiz testes no Postmand e comecei a realizar o Service para controlar a api coinmarketcap, configurar as variáveis ​​de ambiente, Controller e Service tudo de forma legível e escalável.
-                        Então fiz a tabela para mostrar todos os dados de criptomoeda e dei o estilo necessário com a ajuda do Boostrap.
+                        Este projeto visa medir o conhecimento sobre laravel tanto bakend quanto frontend. Meu conhecimento sobre blade laravel era pequeno, o conhecimento sobre bakend era um pouco mais.
+                        Torne a estrutura o mais escalonável e organizada possível. <br>
+                        Trabalhe com serviços, controladores, rotas, config php env e arquivo blade. <br>
+                        Espero que goste do meu trabalho e tenha uma resposta o mais rápido possível.
+
                     </p>
                     <hr class="my-4">
                     <p class="lead">Andres Hernandez <br>
