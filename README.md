@@ -1,5 +1,3 @@
-# Intergalaxy SA: Teste prático para Frontend Developer
-
 # Instruções para executar o projet
 
 - Instale dependências do composer composer install
